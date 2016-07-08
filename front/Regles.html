@@ -1,0 +1,97 @@
+
+Logo Google Drive
+Ajouter à Google Drive
+Mafia › ... › HTML2 éléments
+HTML
+Accueil.html
+HTML
+Regles.html
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Regles du Jeu</title>
+    	<meta charset="utf-8"> 
+    <!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="../CSS/mafia.css">
+	<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	</head>
+	<body>
+		<div class="accueil-head row">
+		<img src="../Images/Logo.jpg" class="col-sm-3 img-circle logo">
+		<h1 class="Mafia col-sm-9">MAFIA</h1>
+	</div>
+  	<nav class="navbar nav-mafia">
+  		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li><a href="Accueil.html">Accueil</a></li>
+      			<li><a href="#">Jouer</a></li>
+      			<li class="active"><a href="#">Règles du Jeu</a></li> 
+    		</ul>
+    		<ul class="nav navbar-nav navbar-right">
+      			<li><a href="#"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+      			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	<div class="regles-block">
+		<h2 class="Titre">Règles du Jeu</h2>
+		<h3 class="Sous-Titre">Principe</h3>
+		<p>Mafia est un jeu de rôle qui oppose deux équipes de joueurs : les mafiosi et les innocents.</p>
+		<p>Au début de la partie, les rôles sont distribués aléatoirement parmi les joueurs. Les mafiosi sont moins nombreux que les innocents mais disposent d'autres avantages leur permettant de rivaliser.</p>
+		<p>Chaque tour de jeu se déroule ainsi : 
+		<ul>
+			<li>La nuit, les mafiosi se réveillent, et choisissent ensemble qui parmi les innocents ils décident d'assassiner. Par conséquent, tous les mafiosi se connaissent, et par déduction savent aussi qui sont les innocents. Après que les mafiosi aient décidé d'une victime, ils retournent se coucher et cette phase prend fin.</li>
+			<li>Le jour, les joueurs découvrent qui a été assassiné par les mafiosi pendant la nuit. Après quoi, un procès se met en place et la ville doit décider qui exécuter. Le but des innocents est donc de réussir à débusquer les mafiosi parmi l'ensemble des joueurs et de convaincre leurs comparses de les exécuter. Il est important de préciser que sauf règles spéciales, les innocents ne connaissent pas l'identité des mafiosi, ni celle des innocents. Il convient de ne pas se fier à n'importe qui !</li>
+		</ul>
+
+		</p>
+		<p>
+			La partie prend fin soit quand l'ensemble des mafiosi a été éliminé, auquel cas les innocents l'emportent, soit quand les mafiosi ont réussi à assassiner ou faire pendre tous les innocents : victoire de la mafia.
+		</p>
+		<p>Pour rendre le jeu plus intéressant, des rôles spéciaux peuvent être ajoutés au partie selon le bon vouloir du Maitre de Jeu. Voir la section suivante pour plus d'informations.</p>
+		<h3 class="Sous-Titre">Personnages</h3>
+		<h4 class="Equipe">Equipe des Innocents</h4>
+		<ul>
+			<li><h5>Innocent classique : <h5> Pas de règle particulière. L'innocent classique a le droit de vote le jour sauf contre-indication spéciale. Voir le principe du jeu ci-dessus.</li>
+			<li><h5>Garde du corps : </h5>Chaque nuit, le garde du corps peut assurer la protection d'un joueur de son choix. Ce joueur ne pourra pas être assassiné par la mafia pendant la nuit. Le garde du corps peut se protéger lui-même. En revanche, il ne peut pas protéger le même joueur deux tours d'affilée. Il se réveille avant la mafia lors de la phase de nuit, et ne sait donc pas à l'avance qui sera la cible des mafiosi.</li>
+			<li><h5>Médecin : </h5>Le médecin peut une seule fois dans la partie décider de sauver le joueur qui s'est fait assassiner dans la nuit par la mafia. Il joue donc après la mafia et sait quel joueur se fait attaquer par les mafiosi, et peut décider ou non de le sauver. Il a également la capacité d'empoisonner un joueur une fois dans la partie, ce qui causera la mort de ce dernier au lever du jour. </li>
+			<li><h5>Enquêteur : </h5>L'enquêteur se réveille chaque nuit et peut enquêter sur le joueur de son choix. Son enquête révelera à lui et lui-seul le rôle du joueur cible de l'investigation. Selon les variantes, l'enquêteur peut être bavard, ce qui signifie qu'au matin venu, tous les joueurs seront informés du rôle du joueur espionné par l'enquêteur pendant la nuit. En revanche, ni l'identité de l'enquêteur, ni celle du joueur cible de l'enquête ne seront révélées.</li>
+			<li><h5>Cupidon : </h5>Cupidon n'a de pouvoir spécial que pendant la toute première nuit. Il doit alors choisir deux joueurs qui tomberont fous amoureux l'un de l'autre. Ces joueurs peuvent être de camps opposés. Les amoureux sont alors liés jusqu'à la fin de la partie et constituent un nouveau camp. Leur but commun est de survivre tous deux jusqu'à la fin de la partie pour l'emporter. Si jamais l'un des deux amoureux vient à mourir, l'autre, fou de chagrin se donne la mort immédiatement.</li>
+			<li><h5>Petite Fille : </h5>La petite fille se réveille chaque nuit en même temps que la mafia et est capable de les espionner. Elle entendra les conversations des mafiosi sans pour autant connaître leur identité.</li>
+			<li><h5>Chasseur : </h5>Le chasseur est un innocent classique jusqu'au moment de sa mort. Lorsque celui-ci perd la vie, il peut choisir ou non d'emporter un autre joueur avec lui dans la tombe et utilisant son ultime balle.</li>
+			<li><h5>Agent infiltré : </h5>L'agent infiltré joue comme s'il appartenait à la mafia, se réveille en même temps qu'eux et fait les mêmes actions mais il est dans le camp des innocents et doit éliminer les membres de la mafia pour gagner.</li>
+			<li><h5>L'Ancien : </h5>l'Ancien est un innocent comme les autres, mais si jamais il est éliminé par les joueurs lors d'une phase de jour (pendaison) , l'ensemble des joueurs innocents perdent tous leurs pouvoirs.</li>
+			<li><h5>L'idiot du Village : </h5>L'idiot du Village est un innocent comme les autres, mais si jamais le reste des joueurs vote pour l'éliminer lors d'une phase de jour, son rôle est révélé à tous, et les citoyens abandonnent finalement l'idée d'éxécuter ce pauvre imbécile. Ils décident cependant de lui retirer son droit de vote : il devient alors complètement inutile.</li>
+			<li><h5>Le bouc émissaire : </h5>Le bouc émissaire est un innocent classique, mais en cas d'égalité lors d'un vote, c'est lui qui sera exécuté à la place, même s'il n'était pas concerné par l'égalité. Dommage !</li>
+			<li><h5>Le Shaman : </h5>Le Shaman est un innocent classique, mais la nuit, il se réveille et peut entendre parler les joueurs morts. Il ne connait cependant pas l'identité des esprits qui le hantent.</li>
+			<li><h5>Le Maire : </h5>Ce rôle n'est pas un rôle classique et ne s'obtient pas en début de partie. Il s'agit d'un rôle bonus qui se cumule avec le vrai rôle d'un joueur. Lorsqu'un joueur est élu maire, il dispose du pouvoir de trancher en cas d'égalité (sauf évidemment si le bouc émissaire est encore en vie).</li>
+		</ul>
+		<h4 class="Equipe">Equipe des Mafiosi</h4>
+		<ul>
+			<li><h5>Mafioso classique : </h5>Pas de règle particulière. Le Mafioso classique peut assassiner un innocent la nuit et voter le jour. Voir le principe du jeu ci-dessus.</li>
+			<li><h5>Parrain : </h5>Le Parrain est Mafioso classique, mais une fois dans la partie il peut recruter un innocent de son choix pour que celui-ci devienne un Mafioso. L'innocent ainsi recruté rejoint donc les rangs de la mafia, mais conserve tous ses pouvoir, ce qui peut rendre la partie très intéréssante.</li>
+			<li><h5>Incognito : </h5>L'incognito est un mafioso classique qui apparaîtra comme innocent en cas d'investigation de l'enquêteur. Il est tout de même un membre de la mafia et gagne avec celle-ci.</li>
+			<li><h5>Apprenti Instable : </h5>L'apprenti instable débute la partie parmi les innocents, et choisit au début un mentor parmi l'ensemble des joueurs. Si jamais ce mentor meurt, L'apprenti sombre dans l'illégalité et rejoint les rangs de la mafia.</li>
+		</ul>
+		<h4 class="Equipe">Personnages Solitaires</h4>
+		<ul>
+			<li><h5>Le Gourou : </h5>Chaque nuit le Gourou se réveille et instille les idéaux de sa secte dans la tête de deux joueurs de son choix. Ces joueurs sauront qu'ils ont été manipulés par le Gourou sans pour autant savoir qui est celui-ci. Le Gourou l'emporte s'il parvient à recruter l'ensemble des joueurs dans sa secte avant la fin de la partie.</li>
+			<li><h5>Mercenaire : </h5>Le Mercenaire est particulier car il a pour but de remporter la partie tout seul. Il se réveille en même temps que les mafiosi et ceux-ci pensent donc qu'il fait partie des leurs. En fait, une nuit sur deux, le Mercenaire peut se réveiller une seconde fois pour assassiner non pas un Innocent mais un mafioso. Le Mercenaire l'emporte uniquement si il est le dernier survivant de la partie</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<p>blablabla mentions légales tout ça</p>
+	</div>
+	</body>
+</html>
+Regles.html
+2 sur 2 éléments
+Accueil.htmlRegles.htmlAffichage de Accueil.html

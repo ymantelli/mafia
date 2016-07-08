@@ -1,0 +1,92 @@
+
+Logo Google Drive
+Ajouter à Google Drive
+Mafia › ... › CSS1 élément
+
+mafia.css
+
+@font-face {
+	font-family 'mafia';
+	src url('..FontsTheGodfather-v2.ttf');
+}
+a
+{
+	color lightgrey;
+}
+.accueil-head
+{
+	border-bottom 5px silver solid;
+}
+body
+{
+	background-image url(..Imagesbackground.jpg);
+}
+.Equipe
+{
+	font-size 21px;
+	text-decoration underline;
+}
+.footer
+{
+	background-color rgba(0,0,110,0.5);
+	text-align center;
+}
+.logo
+{
+	margin-left 100px;
+	margin-top 10px;
+	height 100px;
+	width 135px;
+}
+.Mafia
+{
+	font-family mafia;
+	text-align center;
+	font-size 80px;
+	color silver;
+	position relative;
+	right 60px;
+	
+}
+.nav-mafia
+{
+	font-family mafia;
+	font-size 22px;
+}
+.panel
+{
+	text-align center;
+	background-color black;
+	height 900px;
+	color white;
+	margin20px;
+}
+.panel-heading
+{
+	font-family mafia;
+	font-size 20px;
+}
+.regles-block
+{
+	margin-top 20px;
+	margin-bottom 20px;
+	margin-left 22%;
+	margin-right 22%;
+	padding 5%;
+	padding-top 20px;
+	background-image url(..ImagesParchment-Body.png);
+}
+.Sous-Titre
+{
+	font-family mafia;
+	font-size 36px;
+}
+.Titre
+{
+	font-family mafia;
+	font-size 50px;
+	text-align center;
+}
+
+mafia.css
+Affichage de mafia.css
